@@ -24,7 +24,7 @@ const SignIn = () => {
     if (session?.user?.email) {
       router.replace('/')
     }
-  }, [session])
+  }, [session, router])
 
   return (
     <LoginForm 
