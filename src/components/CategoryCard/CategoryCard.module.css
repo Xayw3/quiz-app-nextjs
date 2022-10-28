@@ -1,0 +1,21 @@
+.wrapper {
+  width: 235px;
+  height: 172px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 0px 15px 40px 5px #EDEDED;
+  border-radius: 30px;
+  display: flex;
+  align-items: flex-end;
+  padding: 11px 19px;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  background-size: cover;
+}
+
+/* 1201-1500px */
+
+@media screen and (max-width: 1500px) {
+  
+}

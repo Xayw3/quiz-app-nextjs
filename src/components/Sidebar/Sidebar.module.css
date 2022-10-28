@@ -1,0 +1,40 @@
+.link{
+  padding: 18px 0 18px 40px;
+  font-weight: 600;
+  font-size: 20px;
+  width: 271px;
+  display: flex;
+  gap: 30px;
+  border-radius: 30px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.link {
+  color: #696F79;
+}
+
+.link.active {
+  background-color: #8692A6;
+  color: #fff;
+}
+
+.link.active .icon {
+  fill: #fff;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: max-content;
+  position: fixed;
+}
+
+/* 768-991px */
+
+@media screen and (max-width: 991px) {
+  .sidebar {
+    display: none;
+  }
+}

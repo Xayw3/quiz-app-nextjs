@@ -1,0 +1,36 @@
+.wrapper {
+  padding: 17px 39px 24px;
+  box-shadow: 0px 15px 40px 5px #EDEDED;
+  border-radius: 30px;
+  max-width: max-content;
+}
+
+.achievments_list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 410px;
+  justify-content: space-around;
+  padding: 0;
+  gap: 20px;
+}
+
+.achievments_item {
+  text-align: center;
+}
+
+.link {
+  padding-top: 16px;
+  border-top: 1px solid #DADADA;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+/* 1201-1400px */
+
+@media screen and (max-width: 1400px) {
+  .achievments_item:first-child {
+    margin-right: 0;
+  }
+}

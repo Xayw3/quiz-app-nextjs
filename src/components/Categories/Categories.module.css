@@ -1,0 +1,27 @@
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+  color: #fff;
+  max-width: 496px;
+}
+
+/* 1201-1500px */
+
+@media screen and (max-width: 1500px) {
+  .categories div {
+    width: 45%;
+  }
+
+  .categories {
+    justify-content: space-between;
+  }
+}
+
+/* 320px-450px */
+
+@media screen and (max-width: 450px) {
+  .categories div {
+    width: 100%;
+  }
+}
