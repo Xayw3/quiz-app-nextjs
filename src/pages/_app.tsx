@@ -18,7 +18,7 @@ const Auth = ({ children }: any) => {
         router.replace('/signin')
       }
     }
-  }, [session, router])
+  }, [session])
 
   return children
 }
